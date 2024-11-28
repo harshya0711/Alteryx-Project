@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Harsh\Downloads\9MJpNWsESMCRwIALRv2tmA_851ed350a4a641d7a6dd80d7df8af5f1_Kentra_Employee.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>9MJpNWsESMCRwIALRv2tmA_851ed350a4a641d7a6dd80d7df8af5f1_Kentra_Employee.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\Harsh\Downloads\9MJpNWsESMCRwIALRv2tmA_851ed350a4a641d7a6dd80d7df8af5f1_Kentra_Employee.csv" type="V_String" />
+            <Field name="first_name" size="254" source="File: C:\Users\Harsh\Downloads\9MJpNWsESMCRwIALRv2tmA_851ed350a4a641d7a6dd80d7df8af5f1_Kentra_Employee.csv" type="V_String" />
+            <Field name="last_name" size="254" source="File: C:\Users\Harsh\Downloads\9MJpNWsESMCRwIALRv2tmA_851ed350a4a641d7a6dd80d7df8af5f1_Kentra_Employee.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\Harsh\Downloads\9MJpNWsESMCRwIALRv2tmA_851ed350a4a641d7a6dd80d7df8af5f1_Kentra_Employee.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Harsh\AppData\Local\Temp\Alteryx\Engine_11216_5863fe644ce140509def17a07a2250a1_\Engine_11216_fd05f10ca893459784fa394c64382a98~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="University" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Race" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Salaryy$" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="annual Bonus" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Roleee" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Department" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Start Date" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="End Date" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Filler" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Client 1" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Client 2" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Client 3" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+            <Field name="Employee Address" size="254" source="File: C:\Users\Harsh\Downloads\BBJQAr0XS7qva2Y07kejWg_fbb81142b6fd442dbd13d5e626be1ef1_Kentra_Sensitive.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="390" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_id" selected="True" rename="ID" input="Left_" />
+                <SelectField field="Left_first_name" selected="True" rename="First Name" input="Left_" />
+                <SelectField field="Left_last_name" selected="True" rename="Last Name" input="Left_" />
+                <SelectField field="Left_email" selected="True" rename="Email" input="Left_" />
+                <SelectField field="Right_id" selected="False" rename="Right_id" input="Right_" />
+                <SelectField field="Right_University" selected="False" input="Right_" />
+                <SelectField field="Right_Race" selected="False" input="Right_" />
+                <SelectField field="Right_Salaryy$" selected="True" rename="Salary" input="Right_" />
+                <SelectField field="Right_Roleee" selected="True" rename="Role" input="Right_" />
+                <SelectField field="Right_Filler" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Joined and Clean Field</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="498" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="ID" />
+            <Field field="First Name" />
+            <Field field="Last Name" />
+            <Field field="Email" />
+            <Field field="Salary" />
+            <Field field="annual Bonus" />
+            <Field field="Role" />
+            <Field field="Department" />
+            <Field field="Start Date" />
+            <Field field="End Date" />
+            <Field field="Client 1" />
+            <Field field="Client 2" />
+            <Field field="Client 3" />
+            <Field field="Employee Address" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove Duplicate</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="606" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>IsNull([End Date]) AND !IsNull([Start Date])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([End Date]) AND !IsNull([Start Date])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1121" y="41" width="197" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption><![CDATA[Calculating Container ]]></Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Calculating Container ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1146" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Salary" selected="True" type="FixedDecimal" size="19.2" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1230" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Salary/26" field="Paystub" size="19.2" type="FixedDecimal" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Paystub = Salary/26
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1374" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Department" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Department - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1470" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\Harsh\Downloads\Alteryx Prohect.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alteryx Prohect.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="689" y="41" width="313" height="269" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Concatenate Client Fields</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Concatenate Client Fields</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="762" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF IsNull([Client 1]) AND !IsNull([Client 2]) THEN [Client 2] + ',' + [Client 3]&#xA;ELSEIF !IsNull([Client 1]) AND IsNull([Client 2]) THEN [Client 1]+','+[Client 3]&#xA;ELSEIF !IsNull([Client 1]) AND !IsNull([Client 2]) THEN [Client 1]+',' + [Client 2] + ',' +[Client 3]&#xA;ELSE[Client 3]&#xA;ENDIF" field="Client List" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Client List = IF IsNull([Client 1]) AND !IsNull([Client 2]) THEN [Client 2] + ',...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="714" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="ID" />
+                <Field field="First Name" />
+                <Field field="Last Name" />
+                <Field field="Email" />
+                <Field field="Salary" />
+                <Field field="annual Bonus" />
+                <Field field="Role" />
+                <Field field="Department" />
+                <Field field="Start Date" />
+                <Field field="End Date" />
+                <Field field="Employee Address" />
+              </KeyFields>
+              <DataFields>
+                <Field field="ID" selected="False" />
+                <Field field="First Name" selected="False" />
+                <Field field="Last Name" selected="False" />
+                <Field field="Email" selected="False" />
+                <Field field="Salary" selected="False" />
+                <Field field="annual Bonus" selected="False" />
+                <Field field="Role" selected="False" />
+                <Field field="Department" selected="False" />
+                <Field field="Start Date" selected="False" />
+                <Field field="End Date" selected="False" />
+                <Field field="Client 1" selected="True" />
+                <Field field="Client 2" selected="True" />
+                <Field field="Client 3" selected="True" />
+                <Field field="Employee Address" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Clients'" field="Name" size="8" type="String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Name = 'Clients'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="918" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="ID" />
+                <Field field="First Name" />
+                <Field field="Last Name" />
+                <Field field="Email" />
+                <Field field="Salary" />
+                <Field field="annual Bonus" />
+                <Field field="Role" />
+                <Field field="Department" />
+                <Field field="Start Date" />
+                <Field field="End Date" />
+                <Field field="Employee Address" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Concat" />
+                <Separator><![CDATA[, ]]></Separator>
+                <FieldSize value="2048" />
+              </Methods>
+              <RetainSpecChars value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="First Name" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="Last Name" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="Email" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="Salary" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="annual Bonus" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="Role" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="Department" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="Start Date" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="End Date" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="Employee Address" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="Clients" size="2048" source="CrossTab:Header:Name:Clients:Concat:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Unique" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx Project</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f99207be-f009-4158-bdd1-cf25de50ccd4" />
+      <Telemetry>
+        <PreviousWorkflowId value="8cc4cff6-0a46-4352-8ec0-cf572a5ce92e" />
+        <OriginWorkflowId value="97f7a060-38d5-4aba-a174-7115105a1547" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
